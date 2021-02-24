@@ -160,22 +160,22 @@ header {
     color: white;
 }
 
-.btn-servicios {
+.btn-nosotros {
     border: 1px solid white;
 }
 
-.btn-contacto {
+.btn-marcas {
     background-color: var(--color-primario);
 }
 
-.btn-servicios:hover {
+.btn-nosotros:hover {
     background-color: var(--color-primario-oscuro);
     color: white;
     box-shadow: 1px 1px 9px var(--color-primario);
     border: none;
 }
 
-.btn-contacto:hover {
+.btn-marcas :hover {
     background-color: var(--color-primario-oscuro);
     color: white;
     box-shadow: 1px 1px 9px var(--color-primario);
@@ -302,7 +302,7 @@ header {
     padding: 0 10px;
 }
 
-.btn-marcas {
+.btn-marcas-all {
     background-color: var(--color-primario);
     color: white;
     font-size: 0.9rem;
