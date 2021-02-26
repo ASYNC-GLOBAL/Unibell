@@ -518,6 +518,10 @@ footer {
     margin-right: 20px;
 }
 
+.footer-contacto li i {
+    color: var(--color-primario);
+}
+
 #footer-copy {
     border-top: 1px solid rgb(133, 133, 133);
 }
