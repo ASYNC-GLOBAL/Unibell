@@ -171,14 +171,14 @@ header {
 .btn-nosotros:hover {
     background-color: var(--color-primario-oscuro);
     color: white;
-    box-shadow: 1px 1px 9px var(--color-primario);
+    box-shadow: 1px 1px 5px var(--color-primario);
     border: none;
 }
 
-.btn-marcas :hover {
+.btn-marcas:hover {
     background-color: var(--color-primario-oscuro);
     color: white;
-    box-shadow: 1px 1px 9px var(--color-primario);
+    box-shadow: 1px 1px 5px var(--color-primario);
 }
 
 
@@ -242,7 +242,7 @@ header {
 .btn-leer:hover {
     background-color: var(--color-primario-oscuro);
     color: white;
-    box-shadow: 1px 1px 9px var(--color-primario);
+    box-shadow: 1px 1px 5px var(--color-primario);
 }
 
 
@@ -308,6 +308,12 @@ header {
     font-size: 0.9rem;
     border-radius: 5px;
     padding: 15px 45px;
+}
+
+.btn-marcas-all:hover {
+    background-color: var(--color-primario-oscuro);
+    color: white;
+    box-shadow: 1px 1px 5px var(--color-primario);
 }
 
 .marcas-img {
@@ -385,7 +391,7 @@ header {
 .btn-enviar:hover {
     background-color: var(--color-primario-oscuro);
     color: white;
-    box-shadow: 1px 1px 9px var(--color-primario);
+    box-shadow: 1px 1px 5px var(--color-primario);
 }
 
 #boletin-img {
@@ -459,7 +465,7 @@ header {
 /********** FOOTER **********/
 
 footer {
-    background-color: #252525;
+    background-color: #111111;
     padding: 20px 0 5px 0;
 }
 
@@ -478,7 +484,7 @@ footer {
 
 #footer-menu h1 {
     font-size: 1.02rem;
-    color: #eeeeee;
+    color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     letter-spacing: 1px;
@@ -489,9 +495,13 @@ footer {
     margin-top: 10px;
 }
 
+.footer-list-menu li {
+    margin-top: 15px;
+}
+
 .footer-list-menu,
 .footer-list-menu li a {
-    color: #BCBCBC;
+    color: #dde1eb;
     font-family: 'Raleway', sans-serif;
     font-size: 0.98rem;
 }
@@ -501,19 +511,25 @@ footer {
 }
 
 #footer-li-social {
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 #footer-li-social a {
     margin-right: 20px;
 }
 
+#footer-copy {
+    border-top: 1px solid rgb(133, 133, 133);
+}
+
+#footer-copy h1 {
+    font-size: 0.95rem;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
 #footer-copy h1,
 #footer-copy h1 a {
-    font-size: 0.85rem;
-    margin-top: 10px;
-    border-top: 1px solid rgb(133, 133, 133);
-    padding-top: 10px;
     color: var(--color-primario);
 }
 
